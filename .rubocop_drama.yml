@@ -81,6 +81,13 @@ Layout/LineLength:
     - http
     - https
 
+Layout/TrailingEmptyLines:
+  EnforcedStyle: final_newline
+
+Lint/AmbiguousBlockAssociation:
+  Exclude:
+    - "spec/**/*"
+
 # Class body의 최대 길이는 200줄
 Metrics/ClassLength:
   CountComments: false  # count full line comments?
@@ -131,6 +138,3 @@ Style/HashTransformKeys:
 
 Style/HashTransformValues:
   Enabled: true
-
-Layout/TrailingEmptyLines:
-  EnforcedStyle: final_newline
