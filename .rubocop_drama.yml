@@ -84,6 +84,10 @@ Layout/LineLength:
 Layout/TrailingEmptyLines:
   EnforcedStyle: final_newline
 
+Layout/MultilineMethodCallIndentation:
+  Exclude:
+    - "spec/**/*"
+
 Lint/AmbiguousBlockAssociation:
   Exclude:
     - "spec/**/*"
