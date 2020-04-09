@@ -127,6 +127,14 @@ Metrics/CyclomaticComplexity:
 Metrics/PerceivedComplexity:
   Max: 10
 
+Naming/PredicateName:
+  # Predicate name prefixes.
+  NamePrefix:
+    - is_
+  # Predicate name prefixes that should be removed.
+  ForbiddenPrefixes:
+    - is_
+
 # % delimiter는 원래 하던 것 처럼 소괄호로
 Style/PercentLiteralDelimiters:
   PreferredDelimiters:
